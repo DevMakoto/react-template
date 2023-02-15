@@ -5,7 +5,7 @@ type Props = {
 }
 
 function Greeting({ name }: Props) {
-  return <div>Hey sdsadasdasdsa, {name}</div>
+  return <div>Hey friend, {name}</div>
 }
 
 export default Greeting

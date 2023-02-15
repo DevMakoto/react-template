@@ -6,5 +6,5 @@ import Greeting from './Greeting'
 test('greets Fred', () => {
   const { queryByText } = render(<Greeting name="Fred" />)
 
-  expect(queryByText('Hey, Fred')).toBeInTheDocument()
+  expect(queryByText('Hey friend, Fred')).toBeInTheDocument()
 })
